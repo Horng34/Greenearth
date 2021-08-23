@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz"
+    android:background="@color/white"
+
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/earthicon"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-29dp"
+        tools:layout_editor_absoluteY="29dp">
+
+        <TextView
+            android:id="@+id/txtquestion"
+            android:layout_width="450dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_roundgreen"
+            android:gravity="center"
+            android:text="Which kind of transport do you use every single day?"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btntrain"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bg_roundgreen"
+                android:text="Train"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btnmotobike"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bg_roundgreen"
+                android:text="Motobike"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+        
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnbikeandwalk"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bg_roundgreen"
+                android:text="Bike and Walk"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btncar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bg_roundgreen"
+                android:text="Car"
+                android:textSize="25sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="695dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtfeedback"
+                android:layout_width="466dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_roundgreen"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btnnext"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/bg_roundgreen"
+                android:text="Next"
+                android:textSize="30sp" />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

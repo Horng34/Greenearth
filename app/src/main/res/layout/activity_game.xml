@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:background="#56B9E8BA"
+    android:orientation="vertical">
+ <pl.droidsonroids.gif.GifImageView
+     android:id="@+id/gifimageview"
+     android:layout_width="350dp"
+     android:layout_height="250dp"
+     android:layout_marginLeft="200dp"
+     android:src="@drawable/digahole"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp">
+        <Button
+            android:id="@+id/btnshovel"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:background="@drawable/shovel"/>
+
+
+        <Button
+            android:id="@+id/btnplant"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:background="@drawable/plant" />
+
+        <Button
+            android:id="@+id/btncompost"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:background="@drawable/compostbg" />
+
+        <Button
+            android:id="@+id/btndirt"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:background="@drawable/dirtimage"/>
+
+        <Button
+            android:id="@+id/btnwater"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:background="@drawable/dropofwater" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

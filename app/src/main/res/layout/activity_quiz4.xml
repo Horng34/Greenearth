@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz4"
+    android:background="@drawable/quizbg"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:src="@drawable/planet"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtquestion4"
+            android:layout_width="450dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_round"
+            android:gravity="center"
+            android:text="4. How many plant do you plant per year?"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="280dp">
+
+            <Button
+                android:id="@+id/btn2plant"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bg_round"
+                android:text="2"
+                android:textAllCaps="false"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btn5plant"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bg_round"
+                android:text="5"
+                android:textAllCaps="false"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="280dp">
+
+
+            <Button
+                android:id="@+id/btn10plant"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bg_round"
+                android:text="10"
+                android:textAllCaps="false"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/btn3plant"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bg_round"
+                android:text="3"
+                android:textAllCaps="false"
+                android:textSize="25sp" />
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnnextquestion4"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="250dp"
+            android:background="@color/white"
+            android:text="Next"
+            android:textColor="@color/green"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

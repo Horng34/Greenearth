@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Question"
+    android:background="@drawable/spacebg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+
+        android:gravity="center"
+        android:text="Please answer all these questions  to reflect on your daily activities."
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btngo"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="300dp"
+        android:layout_marginTop="326dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Go"
+        android:textColor="@color/green"
+        android:background="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

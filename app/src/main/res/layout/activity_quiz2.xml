@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz2"
+    android:background="@drawable/quizbg"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:src="@drawable/planet"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtquestion2"
+            android:layout_width="450dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_round"
+            android:gravity="center"
+            android:text="2. What do you use to carry groceries? "
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="280dp">
+            <Button
+                android:id="@+id/btnpaperbag"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Paper bag"
+                android:textSize="25sp"
+                android:textAllCaps="false"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bg_round" />
+
+            <Button
+                android:id="@+id/btnplastic"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bg_round"
+                android:text="Plastic"
+                android:textAllCaps="false"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="280dp">
+
+
+            <Button
+                android:id="@+id/btnreusable"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bg_round"
+                android:text="Reusable bag"
+                android:textAllCaps="false"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/btncatton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bg_round"
+                android:text="Catton Bag"
+                android:textAllCaps="false"
+                android:textSize="25sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="700dp"
+            android:layout_height="100dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txtfeedbackq2"
+                android:layout_width="466dp"
+                android:layout_height="80dp"
+                android:background="@drawable/bg_round"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+            <Button
+                android:id="@+id/btnnextquestion2"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/white"
+                android:text="Next"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
