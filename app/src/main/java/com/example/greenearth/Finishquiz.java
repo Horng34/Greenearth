@@ -8,21 +8,22 @@ import android.view.View;
 import android.widget.Button;
 
 public class Finishquiz extends AppCompatActivity {
-Button btngo;
+Button btnhome;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_finishquiz);
-        btngo = findViewById(R.id.btngo);
+        btnhome = findViewById(R.id.btnhome);
 
         //when click on button
-        btngo.setOnClickListener(new View.OnClickListener() {
+        btnhome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Finishquiz.this , Greenearthscreen.class);
+                Intent i = new Intent(Finishquiz.this ,Greenearthscreen.class);
                 startActivity(i);
             }
         });
+
     }
 
 }

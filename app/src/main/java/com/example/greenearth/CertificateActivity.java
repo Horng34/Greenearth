@@ -10,25 +10,22 @@ import android.view.View;
 import android.widget.TextView;
 
 public class CertificateActivity extends AppCompatActivity {
-    public static final  String Name = "Name";
-    TextView output,outputname;
-    String name;
+    TextView output,total;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_certificate);
        output=findViewById(R.id.output);
-       outputname=findViewById(R.id.outputname);
-
-       Intent i = getIntent();
-       name= i.getStringExtra(Name);
-       outputname.setText(name);
-
-
-
        String data_output = getIntent().getStringExtra("output_data");
        output.setText(data_output);
+       //Total amount
+        total = findViewById(R.id.total);
+
+        String totalstr = getIntent().getStringExtra("PERCENTAGE");
+        total.setText(totalstr);
 
 
     }

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VideoActivity">
+
+    <VideoView
+        android:id="@+id/videoview"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="80dp">
+
+    </VideoView>
+    <Button
+        android:id="@+id/btnnextgame"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="320dp"
+        android:background="@color/green"
+        android:gravity="center"
+        android:layout_marginLeft="250dp"
+        android:text="Play game!"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+</RelativeLayout>

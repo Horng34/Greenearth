@@ -53,7 +53,7 @@
                 android:layout_height="35dp"
                 android:layout_marginTop="10dp"
                 android:gravity="center_horizontal"
-                android:text="Telegram:  "
+                android:text="Telegram: @Green3earth "
                 android:textColor="@color/green"
                 android:textSize="25dp"
                 android:textStyle="italic" />
@@ -83,7 +83,9 @@
                     android:text="https://bit.ly/2WgYSyI"
                     android:textStyle="italic"
                     android:textColor="@color/black"
-                    android:textSize="20sp"/>
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
             </LinearLayout>
 
             <LinearLayout
@@ -93,15 +95,17 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/earthaskbg" />
+                    android:src="@drawable/deforestationcause" />
                 <TextView
                     android:layout_width="500dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center_vertical"
-                    android:text="https://bit.ly/2WgYSyI"
+                    android:text="https://bit.ly/2Wo5ps6"
                     android:textStyle="italic"
                     android:textColor="@color/black"
-                    android:textSize="20sp"/>
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
             </LinearLayout>
 
             <LinearLayout
@@ -111,15 +115,18 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/earthaskbg" />
+                    android:src="@drawable/deforestation" />
                 <TextView
                     android:layout_width="500dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center_vertical"
-                    android:text="https://bit.ly/2WgYSyI"
+                    android:text="https://bit.ly/3yfJ64EI"
                     android:textStyle="italic"
                     android:textColor="@color/black"
-                    android:textSize="20sp"/>
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"
+                    />
             </LinearLayout>
 
             <LinearLayout
@@ -129,15 +136,17 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/earthaskbg" />
+                    android:src="@drawable/greenhousegas" />
                 <TextView
                     android:layout_width="500dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center_vertical"
-                    android:text="https://bit.ly/2WgYSyI"
+                    android:text="https://bit.ly/3kxqx7d"
                     android:textStyle="italic"
                     android:textColor="@color/black"
-                    android:textSize="20sp"/>
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
             </LinearLayout>
 
             <LinearLayout
@@ -147,15 +156,18 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/earthaskbg" />
+                    android:src="@drawable/co"
+                    />
                 <TextView
                     android:layout_width="500dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center_vertical"
-                    android:text="https://bit.ly/2WgYSyI"
+                    android:text="https://bit.ly/3gCfng5"
                     android:textStyle="italic"
                     android:textColor="@color/black"
-                    android:textSize="20sp"/>
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
             </LinearLayout>
 
             <LinearLayout
@@ -165,16 +177,675 @@
                 <ImageView
                     android:layout_width="150dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/earthaskbg" />
+                    android:src="@drawable/carbondioxide" />
                 <TextView
                     android:layout_width="500dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center_vertical"
-                    android:text="https://bit.ly/2WgYSyI"
+                    android:text="https://bit.ly/38m4aM4"
                     android:textStyle="italic"
                     android:textColor="@color/black"
-                    android:textSize="20sp"/>
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ch4" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text=" https://bit.ly/3jkFCtl"
+                 android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+
+
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/methane" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3kvIfI6"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/no2" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/38i0ivG"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/nitrousoxide" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/2WsrYLI"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/cfcs" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/2Wo92ye"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/cfcscause" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3sSggGc"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/globalwarming" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://go.nasa.gov/3gAkNIy"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/icemelting" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3sOxMLP"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ecological" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3sYw4ri"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/precipitation" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3gy849i"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/extreamweather" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3sOnGdP"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/acid" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3ylfnav"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/poverty" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3ykRU9w"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/poverty2" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/2WuwfhS"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/refugee" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3jqZVWh"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/refugee2" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3Dn8tFl"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/health" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3jh4ceG"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/health2" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3zyBr2A"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/lackoffood" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://go.nasa.gov/38jKGrv"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/food" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3zyBsna"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/edu" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3zhRt0O"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/underwater" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://go.nasa.gov/2WptUEM"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/greencommunity" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3DmE0r2"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/shop" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3ylKm68"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/energy" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/38kP5ut"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/renewable" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3jjiOdq"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/diet" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3gy9T68"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/eatwisely" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3gB8yM3"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/tree" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3yfOaWI"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/puttheplant" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3DppiiO"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/growtree" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3sOrlbm"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/plant" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/2Y2CgTG"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/dirtimage" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3kwjiMC"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/compostbg" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/38hSxGk"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+
+
+
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="40sp"

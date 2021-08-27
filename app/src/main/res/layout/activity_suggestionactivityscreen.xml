@@ -15,10 +15,11 @@
         tools:ignore="MissingConstraints">
 
         <Button
+            android:id="@+id/btnhome"
             android:layout_width="150dp"
             android:layout_height="70dp"
             android:background="@color/green"
-            android:text="Back"
+            android:text="Home"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="30sp" />
@@ -53,7 +54,7 @@
             android:layout_width="300dp"
             android:layout_height="100dp"
             android:layout_marginLeft="40dp"
-            android:background="@drawable/bg_round"
+            android:background="@drawable/bg_green"
             android:text="Game "
             android:textAllCaps="false"
             android:textColor="@color/green"
@@ -63,7 +64,7 @@
             android:layout_width="300dp"
             android:layout_height="100dp"
             android:layout_marginLeft="40dp"
-            android:background="@drawable/bg_round"
+            android:background="@drawable/bg_outline"
             android:text="Tips "
             android:textAllCaps="false"
             android:textColor="@color/green"

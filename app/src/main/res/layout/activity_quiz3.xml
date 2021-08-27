@@ -4,108 +4,127 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Quiz3" android:background="@drawable/quizbg"
+    tools:context=".Quiz3"
+    android:background="@color/white"
     android:orientation="vertical">
     <ImageView
         android:layout_width="250dp"
-        android:layout_height="300dp"
-        android:src="@drawable/planet"
+        android:layout_height="250dp"
+        android:src="@drawable/earthaskbg"
         tools:ignore="MissingConstraints" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-29dp"
+        tools:layout_editor_absoluteY="29dp">
 
         <TextView
-            android:id="@+id/txtquestion3"
+            android:id="@+id/txtquestion"
             android:layout_width="450dp"
-            android:layout_height="100dp"
-            android:layout_marginLeft="250dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="200dp"
             android:layout_marginTop="20dp"
-            android:background="@drawable/bg_round"
+            android:background="@drawable/bg_roundgreen"
             android:gravity="center"
             android:text="3. What kind of energy do you use every day?"
             android:textColor="@color/black"
-            android:textSize="25sp" />
+            android:textSize="20sp" />
 
         <LinearLayout
             android:layout_width="450dp"
-            android:layout_height="70dp"
-            android:orientation="horizontal"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="250dp">
+            android:layout_height="50dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btnsolar"
                 android:layout_width="200dp"
-                android:layout_height="70dp"
-                android:layout_marginLeft="25dp"
-                android:background="@drawable/bg_round"
-                android:text="Solar              energy"
-                android:textAllCaps="false"
-                android:textSize="25sp" />
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bg_green"
+                android:text="Solar Energy"
+                android:textSize="20sp"
+                android:textAllCaps="false"/>
 
             <Button
                 android:id="@+id/btnhydro"
                 android:layout_width="200dp"
-                android:layout_height="70dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:background="@drawable/bg_round"
-                android:text="Hydropower energy"
+                android:background="@drawable/bg_green"
+                android:text="   Hydropower energy"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
                 android:textAllCaps="false"
-                android:textSize="25sp" />
+                android:textSize="20sp" />
 
         </LinearLayout>
-        <LinearLayout
-            android:layout_width="450dp"
-            android:layout_height="70dp"
-            android:orientation="horizontal"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="250dp">
 
+
+        <LinearLayout
+            android:layout_width="600dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btnwind"
                 android:layout_width="200dp"
-                android:layout_height="70dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:background="@drawable/bg_round"
-                android:text="Wind             energy"
+                android:background="@drawable/bg_green"
                 android:textAllCaps="false"
-                android:textSize="25sp" />
-
+                android:text="Wind Energy"
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/btnfossilfuel"
-                android:layout_width="200dp"
-                android:layout_height="70dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:background="@drawable/bg_round"
-                android:text="energy from fossil fuel"
-                android:textAllCaps="false"
-                android:textSize="25sp" />
+                android:background="@drawable/bg_green"
+                android:text="Energy from fossil fuel"
+                android:textSize="20sp"
+                android:textAllCaps="false"/>
 
 
         </LinearLayout>
-        <Button
-            android:id="@+id/btnnextquestion3"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="250dp"
-            android:background="@color/white"
-            android:text="Next"
-            android:textColor="@color/green"
-            android:textSize="25sp"
-            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="695dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtfeedback"
+                android:layout_width="466dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_roundgreen"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnnext"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/bg_roundgreen"
+                android:text="Next"
+                android:textSize="25sp"
+                android:textAllCaps="false"/>
 
 
 
-
+        </LinearLayout>
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

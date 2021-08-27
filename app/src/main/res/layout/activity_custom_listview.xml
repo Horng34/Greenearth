@@ -17,7 +17,7 @@
       android:layout_marginTop="20dp"
       android:layout_marginLeft="10dp"
       android:text="My text"
-      android:textSize="20sp"
-      android:id="@+id/textview"/>
+      android:textSize="12sp"
+      android:id="@+id/textview" />
 
   </LinearLayout>

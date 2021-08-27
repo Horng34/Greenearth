@@ -1,27 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".GameActivity"
-    android:background="#56B9E8BA"
+    android:background="#65CF8211"
     android:orientation="vertical">
- <pl.droidsonroids.gif.GifImageView
-     android:id="@+id/gifimageview"
-     android:layout_width="350dp"
-     android:layout_height="250dp"
-     android:layout_marginLeft="200dp"
-     android:src="@drawable/digahole"/>
 
 
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifimageview"
+        android:layout_width="371dp"
+        android:layout_height="268dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="141dp"
+        android:src="@drawable/growtree" />
+    <TextView
+        android:id="@+id/txtview1"
+        android:layout_width="450dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:layout_marginLeft="150dp"
+        android:text="Hello everyone! Welcome to our plant tree game!
+First you have to chick on shovel button to start planting tree!"
+        android:textSize="20sp"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:textColorHighlight="@color/black">
 
+    </TextView>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="0dp">
+        android:layout_width="170dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        android:gravity="center">
         <Button
             android:id="@+id/btnshovel"
             android:layout_width="120dp"
@@ -41,6 +61,23 @@
             android:layout_height="100dp"
             android:background="@drawable/compostbg" />
 
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="170dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:layout_marginLeft="550dp">
+        <Button
+            android:id="@+id/btnvideoview"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:text="How to look after tree"
+            android:textSize="20sp"
+            android:background="@drawable/bg_green" />
         <Button
             android:id="@+id/btndirt"
             android:layout_width="120dp"
@@ -52,10 +89,13 @@
             android:layout_width="120dp"
             android:layout_height="100dp"
             android:background="@drawable/dropofwater" />
+
     </LinearLayout>
 
 
 
 
 
-</LinearLayout>
+
+
+</RelativeLayout>

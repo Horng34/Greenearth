@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Finishquiz"
-    android:background="@drawable/weldonebg">
+    android:background="@drawable/spacebg">
 
     <TextView
         android:layout_width="match_parent"
@@ -23,35 +23,27 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:text="Weldone"
-        android:textColor="@color/purple"
+        android:fontFamily="@font/dancing_script"
+        android:textColor="@color/white"
         android:textSize="70sp"
         android:textStyle="italic"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="260dp"
-        android:text="Learn more about Climate change!"
-        android:textColor="@color/white"
-        android:textSize="40sp"
-        android:textStyle="italic" />
 
     <Button
-        android:id="@+id/btngo"
+        android:id="@+id/btnhome"
         android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:background="@color/white"
-        android:text="Let's go"
+        android:text="Home"
         android:textAllCaps="false"
         android:textColor="@color/purple"
         android:textSize="30sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="347dp" />
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:layout_marginLeft="200dp"/>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

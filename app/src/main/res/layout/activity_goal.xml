@@ -14,6 +14,7 @@
         android:orientation="horizontal"
         tools:ignore="MissingConstraints">
         <Button
+            android:id="@+id/btnback2"
             android:layout_width="100dp"
             android:layout_height="60dp"
             android:background="@color/green"
@@ -46,10 +47,11 @@
             android:layout_height="552dp"
             android:orientation="vertical">
 
+
             <ImageView
                 android:layout_width="250dp"
                 android:layout_height="210dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:src="@drawable/earthaskbg" />
 
             <Button
@@ -96,7 +98,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:padding="4dp"
-                    android:text="I use public transportation more than my own car."
+                    android:text="I will use public transportation more than my own car."
                     android:textColor="@color/purple_500"
                     android:textSize="25sp"
                     android:textStyle="bold" />
@@ -133,17 +135,7 @@
                     android:padding="4dp"
                     android:hint="Write down your goal!"
                     android:textColorHint="@color/black"/>
-                <EditText
-                    android:id="@+id/etname"
-                    android:layout_width="420dp"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:padding="4dp"
-                    android:hint="Write down your name"
-                    android:textColorHint="@color/black"
-                    android:textColor="@color/white"
-                    android:textColorHighlight="@color/black" />
+
                 <TextView
                     android:layout_marginTop="10dp"
                     android:id="@+id/output"

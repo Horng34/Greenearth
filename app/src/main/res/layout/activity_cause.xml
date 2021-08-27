@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProblemActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btnhome"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:background="@color/green"
+            android:text="Home"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textAllCaps="false"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="631dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/green"
+            android:text="Climate Change Action"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="728dp"
+        android:layout_height="600dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="60dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="60dp">
+            <Button
+                android:id="@+id/btncause"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:textStyle="bold"
+                android:text="Cause"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:background="@color/green"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="50dp"/>
+            <Button
+                android:id="@+id/btnproblem"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:textStyle="bold"
+                android:text="Problem"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:background="@color/green"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="50dp"
+                />
+            <Button
+                android:id="@+id/btneffect"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:textStyle="bold"
+                android:text="Effect"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:background="@color/green"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="50dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:layout_marginTop="10dp">
+            <ListView
+                android:id="@+id/customListView"
+                android:layout_width="278dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:divider="@color/black"
+                android:dividerHeight="2dp"
+                android:listSelector="@color/green"
+                android:layout_marginLeft="5dp"/>
+            <ScrollView
+                android:layout_width="450dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="450dp"
+                    android:layout_height="352dp"
+                    android:orientation="vertical"
+                    android:layout_marginTop="1dp">
+
+                    <ImageView
+                        android:id="@+id/imageview"
+                        android:layout_width="350dp"
+                        android:layout_height="250dp"
+                        android:layout_marginLeft="50dp"
+                        android:src="@drawable/cause"/>
+
+                    <TextView
+                        android:id="@+id/txtview"
+                        android:layout_width="410dp"
+                        android:layout_height="600dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#46F8BBD0"
+                        android:fontFamily="@font/adamina"
+                        android:justificationMode="inter_word"
+                        android:padding="5dp"
+                        android:text="   What is climate change?\n
+Climate change is a change in the pattern of weather, and related changes in oceans, land surfaces and ice sheets, occurring over time scales of decades or longer. This could be a change in how much rain a place usually gets in a year. Or it could be a change in a place's usual temperature for a month or season."
+                        android:textAlignment="viewStart"
+                        android:textAllCaps="false"
+                        android:textColor="@color/green"
+                        android:textColorHighlight="#BF2F2F"
+                        android:textColorHint="#A6974C"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
