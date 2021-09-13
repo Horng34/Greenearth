@@ -17,10 +17,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
-        <activity android:name=".Video2Activity"></activity>
-        <activity
-            android:name=".VideoActivity"
-            android:screenOrientation="landscape"></activity>
+        <activity android:name=".Video2Activity" android:screenOrientation="landscape"></activity>
         <activity android:name=".EffectActivity" android:screenOrientation="landscape" />
         <activity android:name=".ProblemActivity" android:screenOrientation="landscape" />
         <activity android:name=".CustomListview" android:screenOrientation="landscape" />

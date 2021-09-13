@@ -25,7 +25,7 @@ public class SuggestionActivity extends AppCompatActivity {
         btngame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent( SuggestionActivity.this, VideoActivity.class);
+                Intent i = new Intent( SuggestionActivity.this, GameActivity.class);
                 startActivity(i);
             }
         });

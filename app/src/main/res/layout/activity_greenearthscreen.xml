@@ -68,28 +68,29 @@
         app:layout_constraintVertical_bias="0.519"
         tools:layout_editor_absoluteX="11dp"
         tools:ignore="MissingConstraints">
+        <Button
+            android:id="@+id/btngoal"
+            android:layout_width="280dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bg_outline"
+            android:text="Goal "
+            android:textAllCaps="false"
+            android:textColor="@color/green"
+            android:textSize="25sp" />
 
         <Button
             android:id="@+id/btnreflection"
             android:layout_width="280dp"
             android:layout_height="85dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="100dp"
             android:background="@drawable/bg_outline"
             android:text="Reflection Questions"
             android:textAllCaps="false"
             android:textColor="@color/green"
             android:textSize="25sp" />
 
-        <Button
-            android:id="@+id/btngoal"
-            android:layout_width="280dp"
-            android:layout_height="90dp"
-            android:layout_marginLeft="100dp"
-            android:background="@drawable/bg_outline"
-            android:text="Goal "
-            android:textAllCaps="false"
-            android:textColor="@color/green"
-            android:textSize="25sp" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

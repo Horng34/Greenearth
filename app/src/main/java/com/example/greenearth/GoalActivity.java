@@ -14,9 +14,9 @@ import android.widget.TextView;
 import static android.content.ContentValues.TAG;
 
 public class GoalActivity extends AppCompatActivity {
-    Button btnnextgoal,btnback2;
+    Button btnnextgoal,buttonbackgoal;
     CheckBox chbox1, chbox2, chbox3, chbox4;
-    EditText etgoal;
+    EditText etgoal,etname;
     TextView output;
     int percentage;
 
@@ -33,7 +33,8 @@ public class GoalActivity extends AppCompatActivity {
         chbox4 = findViewById(R.id.chbox4);
         output = findViewById(R.id.output);
         etgoal =findViewById(R.id.etgoal);
-        btnback2 = findViewById(R.id.btnback2);
+        etname =findViewById(R.id.etname);
+        buttonbackgoal = findViewById(R.id.buttonbackgoal);
 
 
 
@@ -41,6 +42,9 @@ public class GoalActivity extends AppCompatActivity {
         btnnextgoal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String username = etname.getText().toString();
+
+
                 StringBuilder output = new StringBuilder();
                 output.append(etgoal.getText().toString() + "\n");
 
@@ -66,25 +70,31 @@ public class GoalActivity extends AppCompatActivity {
 
 
 
+
                 Intent intent=new Intent(GoalActivity.this,CertificateActivity.class);
-                intent.putExtra("PERCENTAGE",String.valueOf(percentage) +"%"+"/"+"100%"+"of goal!");
+                intent.putExtra("PERCENTAGE",String.valueOf(percentage) +"/"+"100%"+"of goal!");
+                intent.putExtra("USERNAME",username);
+
                 intent.putExtra("output_data",output.toString());
                 startActivity(intent);
-                GoalActivity.this.finish();
-
-
-                btnback2.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Intent i = new Intent(GoalActivity.this,Greenearthscreen.class);
-                        startActivity(i);
-                    }
-                });
 
 
 
 
 
+
+
+
+
+
+            }
+        });
+
+        buttonbackgoal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ii = new Intent(GoalActivity.this,Greenearthscreen.class);
+                startActivity(ii);
             }
         });
 

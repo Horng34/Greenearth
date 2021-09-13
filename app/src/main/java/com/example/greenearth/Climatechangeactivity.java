@@ -37,7 +37,7 @@ public class Climatechangeactivity extends AppCompatActivity {
                 if (position==0)
                 {
                     TextView txtview = (TextView) findViewById(R.id.txtview );
-                    txtview.setText(        " Deforestation – because living trees absorb and store carbon dioxide (Deforestation refers to the decrease in forest areas across the world. The cause of deforestation included \n" +
+                    txtview.setText(        " Deforestation (Deforestation refers to the decrease in forest areas across the world. The cause of deforestation included \n" +
                                             "1.agriculture (According to the FAO, agriculture causes around 80% of deforestation)\n" +
                                             "2.New Constructions (10% of deforestation can be attributed to new infrastructures that serve the current human lifestyle in four main ways: transportation, transformation and energy generation.) \n" +
                                             "3.Urbanization (The population shift that is leading people to move from rural areas to urban areas is also contributing to deforestation (5%, according to FAO)\n");

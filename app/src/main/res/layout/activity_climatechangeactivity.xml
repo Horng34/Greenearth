@@ -104,7 +104,7 @@
                 android:dividerHeight="2dp"
                 android:listSelector="@color/green" />
             <ScrollView
-                android:layout_width="450dp"
+                android:layout_width="440dp"
                 android:layout_height="300dp"
                 android:layout_marginTop="10dp">
 
@@ -123,10 +123,10 @@
 
                     <TextView
                         android:id="@+id/txtview"
-                        android:layout_width="410dp"
+                        android:layout_width="390dp"
                         android:layout_height="500dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="15dp"
                         android:background="#46F8BBD0"
                         android:fontFamily="@font/adamina"
                         android:justificationMode="inter_word"

@@ -12,8 +12,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 public class ProblemActivity extends AppCompatActivity {
-    String Tipname[]={"Global temperature is rise unusual ", "glacier and sea ice melting","Ecological collapse","Change in precipitation","Extreme weather ","More Acid Rain and Acidic Oceans."};
-    int Tipimage[]={R.drawable.globalwarming,R.drawable.icemelting,R.drawable.ecological,R.drawable.precipitation,R.drawable.extreamweather,R.drawable.acid};
+    String Tipname[]={"Global temperature is rise unusual ", "glacier and sea ice melting","Ecological collapse","Change in precipitation","Extreme weather ","More Acid Rain and Acidic Oceans.","Cambodia","Korea","Australia","Japan","South Africa"};
+    int Tipimage[]={R.drawable.globalwarming,R.drawable.icemelting,R.drawable.ecological,R.drawable.precipitation,R.drawable.extreamweather,R.drawable.acid,R.drawable.cambodia,R.drawable.southkorea,R.drawable.australia,R.drawable.japan,R.drawable.southafrica};
 
     ListView listView;
     Button btncause,btnproblem,btneffect,btnhome;
@@ -99,6 +99,48 @@ public class ProblemActivity extends AppCompatActivity {
                     imageview.setImageResource(R.drawable.acid);
 
                 }
+                if (position==6)
+                {
+                    TextView txtview = (TextView) findViewById(R.id.txtview );
+                    txtview.setText("Cambodia is considered one of the most vulnerable countries to climate change impacts such as floods and droughts. Of the four top economic sectors - garment, tourism, construction and agriculture - the latter accounted for 57.6% of rural labour force, and for over 30% of GDP in 2011 .  Lack of or inadequate physical infrastructure, early warning systems and low capacity of farmers to adapt to the adverse effect of climate change exacerbate the risks associated with changing weather patterns.\n");
+                    ImageView imageview = (ImageView)findViewById(R.id.imageview);
+                    imageview.setImageResource(R.drawable.cambodia);
+
+                }
+                if (position==7)
+                {
+                    TextView txtview = (TextView) findViewById(R.id.txtview );
+                    txtview.setText("Climate change in South Korea has led to extreme weather events in South Korea that affects: social, economy, industry, culture, and many other sectors.[1] South Korea is experiencing changes in climate parameters, including annual temperature, rainfall amounts, and precipitation\n");
+                    ImageView imageview = (ImageView)findViewById(R.id.imageview);
+                    imageview.setImageResource(R.drawable.korea);
+
+                }
+                if (position==8)
+                {
+                    TextView txtview = (TextView) findViewById(R.id.txtview );
+                    txtview.setText("+ Since 1910, Australia's climate has warmed by more than 1 degree Celsius (or 1.8 degrees Fahrenheit). In fact, without action, Australia is expected to warm as much as 5 degrees Celsius (9 degrees Fahrenheit) by 2090.\n" +
+                            "        + Fire season in Australia has become longer and longer since the 1950s. Bushfires (what the Northern Hemisphere calls wildfires) are also becoming more extreme, especially in southern and eastern parts of the country.");
+                    ImageView imageview = (ImageView)findViewById(R.id.imageview);
+                    imageview.setImageResource(R.drawable.australia);
+
+                }
+                if (position==9)
+                {
+                    TextView txtview = (TextView) findViewById(R.id.txtview );
+                    txtview.setText("+ Japan’s average temperature varies widely from year to year, but over the long term, it has been on an upward trend, rising at a rate of 1.15°C per 100 years, which is higher than the global average of 0.68°C per 100 years.");
+                    ImageView imageview = (ImageView)findViewById(R.id.imageview);
+                    imageview.setImageResource(R.drawable.japan);
+
+                }
+                if (position==10)
+                {
+                    TextView txtview = (TextView) findViewById(R.id.txtview );
+                    txtview.setText("The climate of South Africa is typically warm with temperatures ranging between 0°C and 35°C. Rainfall patterns fluctuate with a mean rainfall of only 464 mm compared to a world average of 857 mm. Higher temperatures and a reduction in rainfall expected as a result of climate change will reduce already depleted water resources, contributing to an increasing number of droughts in the country. \n");
+                    ImageView imageview = (ImageView)findViewById(R.id.imageview);
+                    imageview.setImageResource(R.drawable.southafrica);
+
+                }
+
 
 
             }

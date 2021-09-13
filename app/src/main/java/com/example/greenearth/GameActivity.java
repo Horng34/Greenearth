@@ -44,6 +44,8 @@ public class GameActivity extends AppCompatActivity {
                 }
             }
         });
+
+        
         btnvideoview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -57,6 +59,8 @@ public class GameActivity extends AppCompatActivity {
             public void onClick(View v) {
                 gifimageview.setImageResource(R.drawable.digahole);
                 txtview1.setText(" You have dug a hole already. Now let's click on tree button ");
+
+
 
                 String s = txtview1.getText().toString();
               textToSpeech.speak(s,TextToSpeech.QUEUE_FLUSH,null);
@@ -73,6 +77,7 @@ public class GameActivity extends AppCompatActivity {
                 String s = txtview1.getText().toString();
                 textToSpeech.speak(s,TextToSpeech.QUEUE_FLUSH,null);
 
+
             }
         });
         btncompost.setOnClickListener(new View.OnClickListener() {
@@ -82,6 +87,7 @@ public class GameActivity extends AppCompatActivity {
                 txtview1.setText("Now You have added  compost to the tree already! That's good. Compost is  an Organic Fertilizer. So right now let's click on dirt button.");
                 String s = txtview1.getText().toString();
                 textToSpeech.speak(s,TextToSpeech.QUEUE_FLUSH,null);
+
             }
         });
         btndirt.setOnClickListener(new View.OnClickListener() {
@@ -91,6 +97,7 @@ public class GameActivity extends AppCompatActivity {
                 txtview1.setText("Now you have done 4step! So let's go to the final step by clicking on water button.");
                 String s = txtview1.getText().toString();
                 textToSpeech.speak(s,TextToSpeech.QUEUE_FLUSH,null);
+
             }
         });
         btnwater.setOnClickListener(new View.OnClickListener() {
@@ -100,6 +107,7 @@ public class GameActivity extends AppCompatActivity {
                 txtview1.setText("Congratulations! Now you have planted a tree. Please continue to plant tree at your home! ");
                 String s = txtview1.getText().toString();
                 textToSpeech.speak(s,TextToSpeech.QUEUE_FLUSH,null);
+
             }
         });
     }

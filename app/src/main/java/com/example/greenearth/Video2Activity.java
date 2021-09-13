@@ -18,7 +18,7 @@ public class Video2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_video2);
         btnhome3=findViewById(R.id.btnhome3);
         VideoView videoview = findViewById(R.id.videoview);
-        videoview.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.detailofplanttree);
+        videoview.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.video2);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoview);
         videoview.setMediaController(mediaController);

@@ -10,9 +10,10 @@
     <VideoView
         android:id="@+id/videoview"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="410dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
         android:layout_marginBottom="80dp">
 
     </VideoView>

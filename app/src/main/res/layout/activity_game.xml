@@ -16,10 +16,11 @@
         android:layout_height="268dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="200dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="141dp"
         android:src="@drawable/growtree" />
+
     <TextView
         android:id="@+id/txtview1"
         android:layout_width="450dp"
@@ -69,15 +70,17 @@ First you have to chick on shovel button to start planting tree!"
         android:layout_marginTop="0dp"
         android:gravity="center"
         android:layout_marginLeft="550dp">
+
         <Button
             android:id="@+id/btnvideoview"
-        android:layout_width="170dp"
-        android:layout_height="80dp"
-            android:textAllCaps="false"
-            android:textStyle="bold"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_green"
             android:text="How to look after tree"
-            android:textSize="20sp"
-            android:background="@drawable/bg_green" />
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
         <Button
             android:id="@+id/btndirt"
             android:layout_width="120dp"

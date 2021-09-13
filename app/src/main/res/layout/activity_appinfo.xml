@@ -842,24 +842,152 @@
                     android:linksClickable="true"
                     android:autoLink="web"/>
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/cambodia" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3kwQm7s"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/southafrica" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3gGA0Id"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/korea" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3gCsY7l"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/australia" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3gH9COs"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/japan" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/2Wxjh2K"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/southafrica" />
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="https://bit.ly/3DrxdfS"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+            </LinearLayout>
             <TextView
+                android:layout_width="500dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical"
+                android:text="For another background of our app is free copyright image that we got from website: https://pixabay.com/ and https://unsplash.com/ "
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:linksClickable="true"
+                android:autoLink="web"/>
+
+
+
+
+            <Button
+                android:id="@+id/btnaboutus"
                 android:layout_width="match_parent"
                 android:layout_height="40sp"
                 android:textSize="25sp"
                 android:textColor="@color/green"
                 android:text="About Us"
                 android:gravity="center_horizontal"
-                android:textStyle="bold" />
-            <ImageView
+                android:textStyle="bold"
+                android:background="@drawable/bg_green"/>
+            <TextView
+                android:id="@+id/txtaboutus"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp">
+
+            </TextView>
 
 
 
